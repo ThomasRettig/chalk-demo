@@ -1,0 +1,22 @@
+{
+  "name": "chalk-demo",
+  "version": "1.0.0",
+  "description": "Chalk demo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx eslint index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "chalk"
+  ],
+  "author": "Thomas Rettig",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.11.0"
+  }
+}
