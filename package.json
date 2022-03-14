@@ -5,8 +5,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "npx eslint index.js",
-    "start": "node index.js"
+    "test": "npx eslint src/index.js && npx eslint src/crypto.js && npx eslint src/link.js && npx eslint src/animation.js",
+    "index": "node src/index.js",
+    "crypto": "node src/crypto.js",
+    "link": "node src/link.js",
+    "animation": "node src/animation.js"
   },
   "keywords": [
     "chalk"
@@ -14,7 +17,9 @@
   "author": "Thomas Rettig",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^5.0.1"
+    "chalk": "^5.0.1",
+    "chalk-animation": "^1.3.0",
+    "terminal-link": "^3.0.0"
   },
   "devDependencies": {
     "eslint": "^8.11.0"
