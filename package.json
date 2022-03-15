@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx eslint src/index.js && npx eslint src/crypto.js && npx eslint src/link.js && npx eslint src/animation.js",
+    "test fix": "npx eslint src/index.js && npx eslint src/crypto.js && npx eslint src/link.js && npx eslint src/animation.js --fix",
     "index": "node src/index.js",
     "crypto": "node src/crypto.js",
     "link": "node src/link.js",
